@@ -10,6 +10,16 @@ function valueChange(value) {
     slider = value;
 }
 
+/*
+
+Bestimmen Sie den Wert des Gewichtes in der Datei
+„index_flag.js“ und setzen ihn als Input zum
+Shader analog zu analog zu analog zu „time“.
+Definieren Sie dieses Gewicht ebenso als "uniform float “ im Fragment Shader .
+ */
+
+
+
 function startGame() {
     if (BABYLON.Engine.isSupported()) {
         var canvas = document.getElementById("renderCanvas");
